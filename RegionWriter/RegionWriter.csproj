@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CommonUtilities">
+      <HintPath>..\Dependencies\CommonUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="NbtEditor">
+      <HintPath>..\Dependencies\NbtEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="zlibnet">
+      <HintPath>..\Dependencies\zlibnet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
